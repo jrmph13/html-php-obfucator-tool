@@ -1,16 +1,36 @@
 # PHP Encryptor / Obfuscator — Documentation
 a simple html php obfuscator tool perfect for shell using python
-
 **Made by jrmph13**
 
 ---
 
 ## Installation
 
+### PC / Linux / Mac
+
 ```bash
 git clone https://github.com/jrmph13/html-php-obfucator-tool.git
 cd html-php-obfucator-tool
 ```
+
+### Termux (Android)
+
+```bash
+# 1. Install Python and git
+pkg install python git
+
+# 2. Allow access to phone storage (optional)
+termux-setup-storage
+
+# 3. Clone the repo
+git clone https://github.com/jrmph13/html-php-obfucator-tool.git
+cd html-php-obfucator-tool
+
+# 4. Run
+python run.py
+```
+
+> **Note:** Use `python` (not `python3`) in Termux.
 
 ---
 
